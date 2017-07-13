@@ -1,6 +1,6 @@
 $(function() {
   $.ajax('https://www.codeschool.com/users/tsayge.json', {
-	  type: 'jsonp',
+	  dataType: 'jsonp',
 	  success: function(response){
 		  var completed_courses = response.courses.completed;
 		  var length = completed_courses.length;
