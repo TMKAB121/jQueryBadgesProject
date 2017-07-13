@@ -14,5 +14,5 @@ $(function() {
 		  }
 		  $('#badges').append(build_string);
 	  }
-  })
+  });
 });
