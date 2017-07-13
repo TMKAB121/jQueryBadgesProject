@@ -11,7 +11,7 @@ $(function() {
 			  build_string += '<img alt="" src="' + completed_courses[i]['badge'] + '"/>';
 			  build_string += '<a href="' + completed_courses[i]['url'] + '" target="_blank" class="btn btn-primary">See Course</a>';
 			  build_string += '</div>';
-		  }
+		  };
 		  $('#badges').append(build_string);
 	  }
   });
